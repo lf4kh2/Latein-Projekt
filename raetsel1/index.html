@@ -1,9 +1,14 @@
 <body>
-  <input type="text" id="inp" onchange="asd()"></input>
+  <input type="text" width=25px height=25px id="w12"></input>
+  <input type="text" width=25px height=25px id="w11"></input>
+  <button onclick="pruefen()">Prüfen</button>
 </body>
-
 <script>
-  function asd() {
-    windows.alert(document.getElementById("inp").value
+  function pruefen(){
+    let w11 document.getElementById("w11").value
+    let w12 document.getElementById("w12").value
+    if (w11 == "l" && w12 == "a"){
+      alert("Richtig")
+    }
   }
 </script>
